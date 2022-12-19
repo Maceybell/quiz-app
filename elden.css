@@ -37,8 +37,19 @@ body.wrong {
     background-attachment: fixed;
     background-size: contain;
     
-    background-position: center;
+    background-position: top;
     background-color: black;
+}
+
+@media (max-width: 500px){
+  body.wrong {
+    background-image: url("./images/you-died-small.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:;
+    background-color: black;
+  }
 }
 
 .container {
