@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+body {
+  background-color: rgb(0, 16, 14);
+  background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body.wrong {
+
+    background-image: url("./images/you-died.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    
+    background-position: center;
+    background-color: black;
+}
+
+.container {
+  width: 600px;
+  max-width: 80%;
+  background-color: rgba(0, 0, 0, 0.763);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(2, 47, 37, 0.505) 0 0 10px 2px;
+  color: white;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.start-btn,
+.next-btn {
+  font-size: 1.5 rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.quiz-title {
+  margin: 30px;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+header{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
+
+}
+
+a{
+  border: solid white 1px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.327);
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: black;
+}
