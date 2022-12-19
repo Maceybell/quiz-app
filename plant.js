@@ -109,39 +109,39 @@ function updateCounter(){
 
 const questions = [
   {
-    question: "Who gives you the spectral steed whistle?",
+    question: "How long can a saquaro cactus live?",
     answers: [
-      { text: "Blaidd", correct: false },
-      { text: "Iji", correct: false },
-      { text: "Melina", correct: true },
-      { text: "Ranni", correct: false },
+      { text: "1-10 years", correct: false },
+      { text: "25-50 years", correct: false },
+      { text: "100-200 years", correct: true },
+      { text: "1000 or more years", correct: false },
     ],
   },
   {
-    question: "What does Hyetta believe she is being fed?",
+    question: "What holiday is the Poinsetta commonly associated with?",
     answers: [
-      { text: "Berries", correct: false },
-      { text: "Grapes", correct: true },
-      { text: "Hazelnuts", correct: false },
-      { text: "Eyes", correct: false },
+      { text: "Valentine's Day", correct: false },
+      { text: "Christmas", correct: true },
+      { text: "Easter", correct: false },
+      { text: "Thanksgiving", correct: false },
     ],
   },
   {
-    question: "How is Melina killed?",
+    question: "What plant contains a chemical called mescaline, which causes hallucinations?",
     answers: [
-      { text: "She is engulfed in flame from the Mountaintops of the Giants in order to burn the Erdtree", correct: true },
-      { text: "She is summoned during the Radahn festival, sacrificing herself to save the Tarnished near the end of the fight", correct: false },
-      { text: "She is betrayed by Fia", correct: false },
-      { text: "Her soul is absorbed by the Tarnished in order for them to be accepted by the Erdtree", correct: false },
+      { text: "Peyote", correct: true },
+      { text: "Tobacco", correct: false },
+      { text: "Century Plant", correct: false },
+      { text: "Stinging Nettle", correct: false },
     ],
   },
   {
-    question: "What does Preceptor Seluvis craft?",
+    question: "What cactus is known for breaking off and flying at your body if you get too close",
     answers: [
-      { text: "Jars", correct: false },
-      { text: "Spells", correct: false },
-      { text: "Puppets", correct: true },
-      { text: "Swords", correct: false },
+      { text: "Prickly Pear", correct: false },
+      { text: "Barrell Cactus", correct: false },
+      { text: "Jumping Cholla", correct: true },
+      { text: "Succulent", correct: false },
     ],
   },
 ];
